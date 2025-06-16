@@ -1,6 +1,9 @@
 
 # DE9: Process Mapping - Interactive Microsite
 
+<img width="1008" alt="Screenshot 2025-06-15 at 8 14 57 PM" src="https://github.com/user-attachments/assets/9991bf4b-f3fe-4857-919e-ac3f35705c0f" />
+
+
 An interactive microsite exploring the parallels between personal/professional development processes and Richie Hawtin's DE9: Transitions methodology.
 
 ## Project Overview
