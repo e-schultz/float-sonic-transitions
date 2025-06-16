@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
 
-## Project info
+# DE9: Process Mapping - Interactive Microsite
 
-**URL**: https://lovable.dev/projects/fbed757d-4b61-40e2-a2c0-fa251f618a98
+An interactive microsite exploring the parallels between personal/professional development processes and Richie Hawtin's DE9: Transitions methodology.
 
-## How can I edit this code?
+## Project Overview
 
-There are several ways of editing your application.
+This microsite demonstrates how life and career transitions mirror the artistic process behind DE9: Transitions - taking existing elements, deconstructing them, building new patterns, and creating seamless transitions between states.
 
-**Use Lovable**
+**Live Preview**: https://lov-float-dispatch-manifesto-forge.lovable.app/
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fbed757d-4b61-40e2-a2c0-fa251f618a98) and start prompting.
+## Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Interactive Timeline**: Four expandable stages mapping personal process to DE9 methodology
+- **Animated Waveforms**: Canvas-based audio visualization representing continuous transitions
+- **Sigil Navigation**: Symbol-based navigation system with smooth scrolling
+- **Responsive Design**: Mobile-first approach with desktop enhancements
+- **Cyberpunk Aesthetic**: Dark theme with cyan/magenta/yellow accent colors
 
-**Use your preferred IDE**
+## Process Mapping
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 1. Deconstruction Phase `{∇}`
+- Career transitions and pattern extraction
+- Breaking down complex opportunities into components
+- Learning from diverse experiences
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 2. Loop Palette Creation `{Ξ}`
+- FLOAT methodology development
+- Skill accumulation and knowledge crystallization
+- Building ritual infrastructure and systems
 
-Follow these steps:
+### 3. Real-time Composition `{∷}`
+- Dynamic adaptation and live creation
+- Continuous integration of new experiences
+- Professional grace under pressure
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 4. Seamless Transitions `{◊}`
+- Maintaining continuity through change
+- Relationship integrity across outcomes
+- Evolution without losing core identity
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Technical Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+- **React 18** with TypeScript
+- **Tailwind CSS** for styling
+- **Canvas API** for waveform animations
+- **Intersection Observer** for scroll interactions
+- **CSS Grid & Flexbox** for responsive layouts
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
+
+# Build for production
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+├── components/
+│   ├── ProcessStage.tsx      # Individual expandable stage component
+│   ├── ProcessTimeline.tsx   # Main timeline container
+│   ├── SigilNavigation.tsx   # Symbol-based navigation
+│   └── WaveformAnimation.tsx # Canvas waveform visualization
+├── pages/
+│   └── Index.tsx            # Main page component
+└── main.tsx                 # Application entry point
+```
 
-**Use GitHub Codespaces**
+## Design Philosophy
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project embodies the FLOAT methodology - creating systems that support continuous transition and evolution while maintaining essential continuity. The interface itself demonstrates the principles it describes.
 
-## What technologies are used for this project?
+## Acknowledgments
 
-This project is built with:
+Inspired by Richie Hawtin's DE9: Transitions (2005) and the broader philosophy of using technology to create seamless experiences that support human transition and growth.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/fbed757d-4b61-40e2-a2c0-fa251f618a98) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+*"Find your strength in the sound and make your transition."*
