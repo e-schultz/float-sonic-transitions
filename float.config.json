@@ -1,0 +1,7 @@
+{
+  "projectName": "float-sonic-transitions",
+  "subdomain": "sonic-transitions",
+  "framework": "vite",
+  "buildCommand": "npx vite build",
+  "outputDirectory": "dist"
+}
